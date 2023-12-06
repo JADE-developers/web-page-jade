@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JADE - Desarrollo de Software</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #08554c;
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #073b34;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #62d2bd;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        section h2 {
+            color: #08554c;
+        }
+
+        section p {
+            font-size: 1.1em;
+        }
+
+        .specializations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .specialization {
+            border: 2px solid #08554c;
+            padding: 20px;
+            width: calc(25% - 20px);
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        .specialization h3 {
+            color: #08554c;
+            margin-top: 0;
+        }
+
+        .project-card {
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .project-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #08554c;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Empresa JADE</h1>
+        <p>Desarrollo de Software con Innovación</p>
+    </header>
+
+    <nav>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#proyecto">Proyecto Conver.sor</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="tecnologias">
+        <h2>Tecnologías</h2>
+        <p>Nuestra empresa se especializa en el desarrollo de software utilizando diversas tecnologías, entre ellas:</p>
+        <div class="specializations">
+            <div class="specialization">
+                <h3>Java</h3>
+                <p>Desarrollo de aplicaciones robustas con Java.</p>
+            </div>
+            <div class="specialization">
+                <h3>React</h3>
+                <p>Construcción de interfaces interactivas con React.</p>
+            </div>
+            <div class="specialization">
+                <h3>Docker</h3>
+                <p>Creación de imágenes y administración con Docker.</p>
+            </div>
+            <div class="specialization">
+                <h3>Node.js</h3>
+                <p>Desarrollo de aplicaciones escalables con Node.js.</p>
+            </div>
+            <!-- Agrega más especializaciones según sea necesario -->
+        </div>
+    </section>
+
+    <section id="proyecto">
+        <h2>Proyecto Conver.sor</h2>
+        <div class="project-card">
+            <img src="tu-imagen-en-circulo.jpg" alt="Imagen del Proyecto">
+            <h3>Conver.sor</h3>
+            <p>Proyecto innovador para la conversión de archivos .sor a diversos formatos.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Interesado en nuestros servicios? Contáctenos para obtener más información.</p>
+        <p>Correo electrónico: info@jade.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Empresa JADE. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
